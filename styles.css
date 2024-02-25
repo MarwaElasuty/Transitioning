@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.click-btn{
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    transition: transform 2s cubic-bezier(0.755, 0.05, 0.855, 0.06), background-color 2s, color 2s ease-out;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.click-btn:hover{
+    background-color:rgb(166, 214, 255);
+    color: black;
+    /* transform: translateX(200px); */
+    transform: rotateZ(300deg);
+    transform-origin: top right;
+}
+
